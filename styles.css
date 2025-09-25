@@ -1,0 +1,43 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: black;
+}
+
+.cabecalho {
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.titulo-principal {
+    color: blue;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: #ff6600;
+}
+
+.conteudo {
+    background-color: #f2f2f2;
+    color: darkblue;
+}
+
+.conteudo > p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+.conteudo > p:nth-child(3) {
+    color: purple;
+    vertical-align: sub;
+    font-size: 20px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        background-color: #ADD8E6;
+    }
+}
